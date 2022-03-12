@@ -11,7 +11,6 @@ public class CarDetectorGaussScript : CarDetectorScript
     // Get gaussian output value
     public override float GetOutput()
     {
-        // YOUR CODE HERE
         // if the output is less than 0.1 it means that the Vehicle2a is getting left behind
         // so we make the standard deviation greater in order to make it getting closer
         if (output < 0.1f)

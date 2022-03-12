@@ -40,7 +40,6 @@ public class LightDetectorScript : MonoBehaviour {
 			output += 1.0f / ((transform.position - light.transform.position).sqrMagnitude / r + 1);
 			//Debug.DrawLine (transform.position, light.transform.position, Color.red);
 		}
-	
 	}
 
 	public virtual float GetOutput() { throw new NotImplementedException(); }
@@ -74,6 +73,4 @@ public class LightDetectorScript : MonoBehaviour {
 
 		return (GameObject[])visibleLights.ToArray(typeof(GameObject));
 	}
-
-
 }
