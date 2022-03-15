@@ -439,12 +439,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MaxX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: MaxY
       value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
-      propertyPath: ApplyThresholds
+      propertyPath: ApplyLimits
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyThresholds
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3398336395096198609, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: m_Enabled
@@ -459,8 +467,12 @@ PrefabInstance:
       value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 6101812135912574356, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
-      propertyPath: ApplyThresholds
+      propertyPath: ApplyLimits
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101812135912574356, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyThresholds
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 450285534756404743, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
