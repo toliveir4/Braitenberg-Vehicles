@@ -1,0 +1,3 @@
+Circulo:
+LightDetectorGaussLeft - Std Dev = 0.2
+LightDetectorGaussRight - Std Dev = 0.4
