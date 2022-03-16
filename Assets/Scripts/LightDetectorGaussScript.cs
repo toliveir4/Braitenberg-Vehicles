@@ -14,25 +14,25 @@ public class LightDetectorGaussScript : LightDetectorScript {
 	{
 		// calc of Gauss Function (source: Wikipedia)
         float A = (float) (1 / (stdDev * Math.Sqrt(2.0 * Math.PI)));
-        output = (float) (A * Math.Exp(-Math.Pow(output - mean, 2) / (2 * Math.Pow(stdDev, 2))));
+        float response = (float) (A * Math.Exp(-Math.Pow(output - mean, 2) / (2 * Math.Pow(stdDev, 2))));
 
 		if (ApplyThresholds)
 		{
 			if (output < MinX || output > MaxX)
-				return 0.0f;
+				response = 0.0f;
 		}
 		if (ApplyLimits)
 		{
-			if (output < MinY)
+			if (response < MinY)
 				return MinY;
 
-			if (output > MaxY)
+			if (response > MaxY)
 				return MaxY;
 		}
 
 		if (inverse)
-			return 1 - output;
+			return 1 - response;
 		else
-			return output;
+			return response;
 	}
 }
