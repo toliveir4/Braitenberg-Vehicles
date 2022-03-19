@@ -10,7 +10,7 @@ public class LightDetectorLinearScript : LightDetectorScript {
 		if (ApplyThresholds)
 		{
 			if (output < MinX || output > MaxX)
-				return 0.0f;
+				output = 0.0f;
 		}
 		if (ApplyLimits)
 		{

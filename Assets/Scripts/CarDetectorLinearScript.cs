@@ -8,12 +8,20 @@ public class CarDetectorLinearScript : CarDetectorScript
 
     public override float GetOutput()
     {
-        return output;
+		if (ApplyThresholds)
+		{
+			if (output < MinX || output > MaxX)
+				output = 0.0f;
+		}
+		if (ApplyLimits)
+		{
+			if (output < MinY)
+				return MinY;
+
+			if (output > MaxY)
+				return MaxY;
+		}
+
+		return output;
     }
-
-    // YOUR CODE HERE
-
-
-
-
 }

@@ -446,6 +446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle2a
       objectReference: {fileID: 0}
+    - target: {fileID: 432824, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 442758, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -456,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442758, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 442758, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: m_LocalPosition.z
@@ -547,6 +551,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: mean
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: stdDev
       value: 0.2
       objectReference: {fileID: 0}
@@ -561,6 +569,10 @@ PrefabInstance:
     - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: MinY
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: mean
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: stdDev

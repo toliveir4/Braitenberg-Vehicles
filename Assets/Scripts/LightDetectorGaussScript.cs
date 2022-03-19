@@ -31,7 +31,7 @@ public class LightDetectorGaussScript : LightDetectorScript {
 		}
 
 		if (inverse)
-			return 1 - response;
+			return stdDev - response;
 		else
 			return response;
 	}
