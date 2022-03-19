@@ -614,17 +614,45 @@ PrefabInstance:
       propertyPath: ApplyLimits
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MaxX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MaxY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MinY
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyLimits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010094822325634599, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyThresholds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MaxX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: MaxY
-      value: 10
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MinX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: MinY
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: mean
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: stdDev
@@ -638,17 +666,29 @@ PrefabInstance:
       propertyPath: ApplyLimits
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3621734815262107767, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyThresholds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MaxX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: MaxY
-      value: 10
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MinX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: MinY
-      value: 0.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: mean
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: stdDev
@@ -660,6 +700,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
       propertyPath: ApplyLimits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352541955692875312, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyThresholds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101812135912574356, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MaxX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101812135912574356, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MaxY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101812135912574356, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: MinY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101812135912574356, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyLimits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101812135912574356, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
+      propertyPath: ApplyThresholds
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8275669006326225323, guid: a094c41ba2a5f421c9090afea1164b25, type: 3}
@@ -1056,7 +1120,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 30
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

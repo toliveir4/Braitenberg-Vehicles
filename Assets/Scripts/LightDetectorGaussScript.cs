@@ -24,14 +24,14 @@ public class LightDetectorGaussScript : LightDetectorScript {
 		if (ApplyLimits)
 		{
 			if (response < MinY)
-				return MinY;
+				response = MinY;
 
 			if (response > MaxY)
-				return MaxY;
+				response = MaxY;
 		}
 
 		if (inverse)
-			return stdDev - response;
+			return 1 - response;
 		else
 			return response;
 	}
