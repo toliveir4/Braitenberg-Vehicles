@@ -1651,7 +1651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6476b914ffbc547fcbe1121d8dba100a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxSpeed: 5
+  MaxSpeed: 8
   RR: {fileID: 814659989}
   RL: {fileID: 814671375}
   DetectLights: 1
@@ -2819,7 +2819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6476b914ffbc547fcbe1121d8dba100a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxSpeed: 15
+  MaxSpeed: 10
   RR: {fileID: 1152074976}
   RL: {fileID: 1152064378}
   DetectLights: 0
@@ -3800,8 +3800,9 @@ MonoBehaviour:
   MaxY: 0
   output: 0
   numObjects: 0
-  stdDev: 1
+  stdDev: 0.15
   mean: 0
+  response: 0
 --- !u!114 &45354748601720573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3825,6 +3826,7 @@ MonoBehaviour:
   numObjects: 0
   stdDev: 1
   mean: 0
+  response: 0
 --- !u!1 &551418988912141074
 GameObject:
   m_ObjectHideFlags: 0
@@ -4148,6 +4150,7 @@ MonoBehaviour:
   mean: 0
   min_y: 0
   inverse: 0
+  response: 0
 --- !u!114 &3621734816265281383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4173,6 +4176,7 @@ MonoBehaviour:
   mean: 0
   min_y: 0
   inverse: 0
+  response: 0
 --- !u!114 &4352541955966616661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4198,6 +4202,7 @@ MonoBehaviour:
   mean: 0
   min_y: 0
   inverse: 0
+  response: 0
 --- !u!114 &4352541956840765728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4223,6 +4228,7 @@ MonoBehaviour:
   mean: 0
   min_y: 0
   inverse: 0
+  response: 0
 --- !u!1 &4469401386221339586
 GameObject:
   m_ObjectHideFlags: 0
@@ -4410,6 +4416,7 @@ MonoBehaviour:
   numObjects: 0
   stdDev: 1
   mean: 0
+  response: 0
 --- !u!114 &6190424137731649233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4431,8 +4438,9 @@ MonoBehaviour:
   MaxY: 0
   output: 0
   numObjects: 0
-  stdDev: 1
+  stdDev: 0.15
   mean: 0
+  response: 0
 --- !u!4 &6640763311232702368
 Transform:
   m_ObjectHideFlags: 0
